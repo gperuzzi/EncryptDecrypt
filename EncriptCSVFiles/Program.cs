@@ -12,7 +12,7 @@ namespace EncriptCSVFiles
     {
         public static void Main(string[] args)
         {
-            try
+            try 
             {
                 foreach (string s in Directory.GetFiles(Directory.GetCurrentDirectory(), "*.csv").Select(System.IO.Path.GetFileName))
                 {
